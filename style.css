@@ -1,0 +1,40 @@
+.fade {
+  background-color: transparent;
+}
+
+
+
+span.value {
+    background-color: rgb(0, 0, 0);
+    -o-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+  
+
+  
+
+
+
+body {
+    background-image: url(resources/luna_xp_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+[draggable=true] {
+    cursor: move;
+}
+.window {
+    resize: both;
+
+
+}
+@font-face {
+  font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+  src: url("font/SegoeUI-VF.ttf");
+  src: url("font/tahoma.ttf");
+  src: url("font/arial-black.ttf");
+}
